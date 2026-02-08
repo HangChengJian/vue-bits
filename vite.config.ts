@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 
 export default defineConfig({
+  base: 'vue-bits',
   plugins: [vue(), vueJsx(), tailwindcss()],
   resolve: {
     alias: {
